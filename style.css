@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1006%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(57%2c 8%2c 121%2c 1)'%3e%3c/rect%3e%3cpath d='M662 163L661 -203' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M349 447L348 168' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1379 287L1378 441' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1070 30L1069 215' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M987 490L986 788' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M514 49L513 -123' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M980 376L979 667' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M323 226L322 -88' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M689 550L688 727' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M688 266L687 37' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1304 297L1303 40' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M354 87L353 366' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M271 351L270 626' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M711 433L710 691' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M859 111L858 -300' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M117 359L116 587' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1214 302L1213 81' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M10 88L9 -235' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1261 53L1260 -182' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M51 200L50 500' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1005 331L1004 -24' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M157 367L156 20' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1391 111L1390 -237' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M156 431L155 695' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M472 519L471 365' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M109 218L108 -43' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M689 78L688 -308' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M584 219L583 38' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M801 224L800 630' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1206 216L1205 365' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M379 555L378 194' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1385 509L1384 366' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1015 520L1014 188' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M5 130L4 -148' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M195 122L194 272' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1008%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M611 53L610 246' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1007%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1006'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient1007'%3e%3cstop stop-color='rgba(184%2c 223%2c 16%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(184%2c 223%2c 16%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1008'%3e%3cstop stop-color='rgba(184%2c 223%2c 16%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(184%2c 223%2c 16%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  }
+  .box {
+    width: 420px;
+    background: transparent;
+    border: 2px solid white;
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+  }
+  .box h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .box .sol {
+    position: relative;
+    width: 100%;
+    height: 50px;
+  
+    margin: 30px 0;
+  }
+  .sol input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+  }
+  .sol input::placeholder {
+    color: #fff;
+  }
+  .sol i {
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+  }
+  .box .forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  .forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+  }
+  .forgot a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .forgot a:hover {
+    text-decoration: underline;
+  }
+  .box .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+  .box .link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+  .link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .link p a:hover {
+    text-decoration: underline;
+  }
+  
